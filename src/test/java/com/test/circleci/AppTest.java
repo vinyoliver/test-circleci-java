@@ -19,6 +19,6 @@ public class AppTest {
 
     @Test
     public void brokenTest() {
-        Assert.assertEquals(App.sum(10, 12), 21);
+        Assert.assertEquals(App.sum(10, 12), 20);
     }
 }
