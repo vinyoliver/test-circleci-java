@@ -21,4 +21,9 @@ public class AppTest {
     public void brokenTest() {
         Assert.assertEquals(App.sum(10, 12), 22);
     }
+
+    @Test
+    public void subtractShouldBeEqual() {
+        Assert.assertEquals(App.subtract(20, 12), 8);
+    }
 }
