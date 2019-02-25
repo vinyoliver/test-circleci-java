@@ -24,6 +24,6 @@ public class AppTest {
 
     @Test
     public void subtractShouldBeEqual() {
-        Assert.assertEquals(App.subtract(20, 12), 8);
+        Assert.assertEquals(App.subtract(20, 12), 9);
     }
 }
