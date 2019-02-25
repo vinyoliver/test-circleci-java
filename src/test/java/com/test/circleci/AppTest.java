@@ -16,4 +16,9 @@ public class AppTest {
     public void shouldBeDifferent() {
         Assert.assertNotEquals(App.sum(10, 12), 20);
     }
+
+    @Test
+    public void brokenTest() {
+        Assert.assertEquals(App.sum(10, 12), 21);
+    }
 }
