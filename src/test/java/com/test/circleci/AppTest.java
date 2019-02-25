@@ -13,7 +13,7 @@ public class AppTest {
     }
 
     @Test
-    public void shouldBeDiffent() {
+    public void shouldBeDifferent() {
         Assert.assertNotEquals(App.sum(10, 12), 20);
     }
 }
